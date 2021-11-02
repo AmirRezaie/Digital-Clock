@@ -1,0 +1,53 @@
+body{
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+#digitalClockId{
+    width: 20%;
+    height: 12vh;
+    color: #ffffff;
+    font-size: 5em;
+    margin: 30% 0 0 17%;
+    text-align: center;
+    float: left;
+    transform: rotate(-5deg);
+    /* Legacy vendor prefixes that you probably don't need... */
+
+    /* Safari */
+    -webkit-transform: rotate(-5deg);
+    /* Firefox */
+    -moz-transform: rotate(-5deg);
+    /* IE */
+    -ms-transform: rotate(-5deg);
+    /* Opera */
+    -o-transform: rotate(-5deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+#digitalClockWithPM{
+    width: 35%;
+    height: 13vh;
+    color: #ffffff;
+    font-size: 5em;
+    margin: 6% 17% 0 0;
+    text-align: center;
+    float: right;
+    transform: rotate(-1deg);
+    /* Legacy vendor prefixes that you probably don't need... */
+
+    /* Safari */
+    -webkit-transform: rotate(-1deg);
+    /* Firefox */
+    -moz-transform: rotate(-1deg);
+    /* IE */
+    -ms-transform: rotate(-1deg);
+    /* Opera */
+    -o-transform: rotate(-1deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
